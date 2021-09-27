@@ -1,4 +1,4 @@
-baseURL = "https://ease.ml/"
+baseURL = "https://easeml.netlify.app/"
 languageCode = 'en-us'
 title = 'ease.ml'
 theme = "nofancy"
