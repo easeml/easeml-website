@@ -1,0 +1,4 @@
+baseURL = "https://ease.ml/"
+languageCode = 'en-us'
+title = 'ease.ml'
+theme = "nofancy"

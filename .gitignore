@@ -1,0 +1,9 @@
+/public/
+/resources/_gen/
+/.vscode/
+/.mypy_cache/
+
+hugo.exe
+hugo.linux
+hugo.darwin
+
