@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'ease.ml'
 theme = "nofancy-custom"
 
+googleAnalytics = "G-G53GDYRNKF"
+
 [author]
     name = "DS3 Lab"
     homepage = "https://ds3lab.inf.ethz.ch/"
