@@ -1,9 +1,13 @@
-baseURL = "https://easeml.netlify.app/"
+baseURL = "https://ease.ml/"
 languageCode = 'en-us'
 title = 'ease.ml'
-theme = "nofancy"
+theme = "nofancy-custom"
 
 [author]
     name = "DS3 Lab"
+    homepage = "https://ds3lab.inf.ethz.ch/"
     github = "DS3Lab"
     twitter = "ds3lab"
+
+[markup.goldmark.renderer]
+    unsafe= true

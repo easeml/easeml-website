@@ -1,14 +1,23 @@
 ---
 layout: single
+title: The ease.ml Project
+description: The fundemental hypothesis of ease.ml is that future machine learning platforms should manage the end-​​to-​end process of building ML applications, beyond simplying making training a single model faster and automatic.
+thumbnail: images/easeml-logo.png
 ---
 
-# The ease.ml Project
+<!-- # The ease.ml Project
 
-The fundemental hypothesis of ease.ml is that future machine learning platforms should manage the end-​​to-​end process of building ML applications, beyond simplying making training a single model faster and automatic.
+> The fundemental hypothesis of ease.ml is that future machine learning platforms should manage the end-​​to-​end process of building ML applications, beyond simplying making training a single model faster and automatic. -->
+
+<div class="embedded-element">
+{{< youtube YMG3O5wZNBc >}}
+</div>
 
 What is the right level of abstraction that future ML platforms should provide to its end users in order to unleash the full potential of machine learning to non-​ML-experts such as biologists, astronomers, social scientists, or generally non-​ML software engineers? We believe that understanding this question is the key to unleash the profound impact of ML to society in the near future. In ease.ml, we are inspired by our experience working with a diverse range of domain experts (See [Applications](https://ds3lab.inf.ethz.ch/other-projects/applications.html)) and our own explorations on distributed scalable learning (See [ZipML](https://zip.ml)) -- Our belief is that the usability of a learning system should go beyond performance, scalability, and automation, instead, we should aim at managing the end-​to-end process of building ML applications and provide systematic guidelines for an end-​user. This view opens up a series of fundamental and challenging problems; and our personal view on many of them lead to the end-​to-end ease.ml process.
 
 ## The ease.ml Journey
+
+![The Ease.ml Process](images/easeml-overview.png)
 
 The ease.ml process consists of three stacks -- apart from the standard AutoML stack, the Ease.ml process starts before an ML application is even modelled --- by the Pre-​ML Stack --- and finishes at the Post-​ML "MLOps" stack. Built as a thin layer over existing data ecosystems and techniques (such as amazing work done by other researchers including Snorkel, Label box, Holocleans, Kubeflow, etc.), ease.ml guides a non-​expert user step-​by-step: Starting by automatic data ingestion and augmentation (ease.ml/DataMagic), automatic feasibility study (ease.ml/snoopy), data noise debugging (CPClean), data acquisition (Market), scalable multi-​tenant automatic training (ease.ml/AutoML), continuous integration (ease.ml/ci), and ending with label-​efficient continuous quality optimization (ease.ml/ModelPicker). By following this process, we hope that an end user, without deep understanding of ML techniques, is able to construct ML applications without falling into many common pitfalls (e.g., overfitting, domain drifting, ill-​defined tasks or overly noisy datasets).
 
