@@ -1,0 +1,31 @@
+:root {
+    --color-background: rgb(255, 255, 255);
+    --color-backplate: rgb(249, 249, 249);
+    --color-foreground: rgb(36, 36, 36);
+    --color-highlight: rgb(125, 125, 125);
+    --color-shadow: rgba(0, 0, 0, 0.1);
+    --color-soft: rgb(65, 65, 65);
+    --color-primary: rgb(39, 196, 238);
+}
+
+img {
+    filter: drop-shadow(0.1em -0.1em 0.3em var(--color-shadow));
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-background: rgb(14, 14, 14);
+        --color-backplate: rgb(72, 72, 72);
+        --color-foreground: rgb(255, 255, 255);
+        --color-highlight: rgb(166, 166, 166);
+        --color-shadow: rgba(255, 255, 255, 0.4);
+        --color-soft: rgb(226, 226, 226);
+        --color-primary: rgb(39, 196, 238);
+    }
+
+    img {
+        filter: drop-shadow(0.1em -0.1em 0.3em var(--color-shadow));
+        /* background-color: var(--color-foreground); */
+        opacity: 0.9;
+    }
+}

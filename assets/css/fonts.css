@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway&family=Roboto+Mono&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3, body>header>div>span {
+    font-family: 'Raleway', sans-serif;
+}
+
+code {
+    font-family: "Roboto Mono";
+}
+

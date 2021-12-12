@@ -1,7 +1,7 @@
 baseURL = "https://ease.ml/"
 languageCode = 'en-us'
 title = 'ease.ml'
-theme = "nofancy-custom"
+theme = "cotton-sky"
 
 googleAnalytics = "G-15VE4F9Z07"
 
@@ -13,3 +13,24 @@ googleAnalytics = "G-15VE4F9Z07"
 
 [markup.goldmark.renderer]
     unsafe= true
+
+[imaging]
+quality = 100
+
+# Menu links
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = ""
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Components"
+    pre = "components"
+    url = "/components/"
+    weight = 2
+  [[menu.main]]
+    name = "Publications"
+    pre = "publications"
+    url = "/publications/"
+    weight = 3

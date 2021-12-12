@@ -1,8 +1,31 @@
 ---
-layout: single
+layout: list
 title: The ease.ml Project
-description: The fundemental hypothesis of ease.ml is that future machine learning platforms should manage the end-​​to-​end process of building ML applications, beyond simplying making training a single model faster and automatic.
+summary: The fundemental hypothesis of ease.ml is that future machine learning platforms should manage the end-​​to-​end process of building ML applications, beyond simplying making training a single model faster and automatic.
 thumbnail: images/easeml-logo.png
+sections:
+    - partial: content
+    - partial: list
+      content:
+        data: publications
+        where:
+          key: tag
+          operator: eq
+          match: easeml
+    - title: System Components
+      partial: list
+      content:
+        page: components
+        param: pages
+links:
+  - icon: fa-github
+    href: https://github.com/easeml
+    large: true
+    label: Code
+  - icon: fa-info-circle
+    href: https://ds3lab.inf.ethz.ch/
+    large: true
+    label: About Us
 ---
 
 <!-- # The ease.ml Project
@@ -10,7 +33,7 @@ thumbnail: images/easeml-logo.png
 > The fundemental hypothesis of ease.ml is that future machine learning platforms should manage the end-​​to-​end process of building ML applications, beyond simplying making training a single model faster and automatic. -->
 
 <div class="embedded-element">
-{{< youtube YMG3O5wZNBc >}}
+{{< youtube t25XZQMtV5I >}}
 </div>
 
 What is the right level of abstraction that future ML platforms should provide to its end users in order to unleash the full potential of machine learning to non-​ML-experts such as biologists, astronomers, social scientists, or generally non-​ML software engineers? We believe that understanding this question is the key to unleash the profound impact of ML to society in the near future. In ease.ml, we are inspired by our experience working with a diverse range of domain experts (See [Applications](https://ds3lab.inf.ethz.ch/other-projects/applications.html)) and our own explorations on distributed scalable learning (See [ZipML](https://zip.ml)) -- Our belief is that the usability of a learning system should go beyond performance, scalability, and automation, instead, we should aim at managing the end-​to-end process of building ML applications and provide systematic guidelines for an end-​user. This view opens up a series of fundamental and challenging problems; and our personal view on many of them lead to the end-​to-end ease.ml process.
@@ -23,11 +46,15 @@ The ease.ml process consists of three stacks -- apart from the standard AutoML s
 
 ## System Summary
 
+<div class="embedded-element">
+{{< youtube YMG3O5wZNBc >}}
+</div>
+
 To enable ease.ml, we designed an, in our opinion, interesting schema of our data, model, and the process. For example, uncertainty is a first class citizen in our data model and we enforce a clear separation between four pillars of data: training set, development set, stable test set, and realtime test set. Another example is that we model the data flow in the MLOps cycles as an endless stream of models.
 
-Leonel Aguilar, David Dao, Shaoduo Gan, Nezihe Merve Gurel, Nora Hollenstein, Jiawei Jiang, Bojan Karlas, Thomas Lemmin, Tian Li, Yang Li, Susie Rao, Johannes Rausch, Cedric Renggli, Luka Rimanic, Maurice Weber, Shuai Zhang, Zhikuan Zhao, Kevin Schawinski, Wentao Wu, Ce Zhang. Ease.ML: A Lifecycle Management System for Machine Learningcall_made. CIDR 2021.
+<!-- Leonel Aguilar, David Dao, Shaoduo Gan, Nezihe Merve Gurel, Nora Hollenstein, Jiawei Jiang, Bojan Karlas, Thomas Lemmin, Tian Li, Yang Li, Susie Rao, Johannes Rausch, Cedric Renggli, Luka Rimanic, Maurice Weber, Shuai Zhang, Zhikuan Zhao, Kevin Schawinski, Wentao Wu, Ce Zhang. Ease.ML: A Lifecycle Management System for Machine Learningcall_made. CIDR 2021. -->
 
-## Overview of Components
+<!-- ## Overview of Components
 
 ### DataMagic
 
@@ -179,4 +206,4 @@ In ease.ml/ModelPicker, we designed a novel active learning algorithm which pick
 
 **Publications:**
 
-Mohammad Reza Karimi*, Nezihe Merve Gürel*, Bojan Karlaš, Johannes Rausch, Ce Zhang, and Andreas Krause. Online Active Model Selection for Pre-​​​trained Classifiers. AISTATS 2021.
+Mohammad Reza Karimi*, Nezihe Merve Gürel*, Bojan Karlaš, Johannes Rausch, Ce Zhang, and Andreas Krause. Online Active Model Selection for Pre-​​​trained Classifiers. AISTATS 2021. -->
