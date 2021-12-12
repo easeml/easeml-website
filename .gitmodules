@@ -1,3 +1,6 @@
 [submodule "themes/nofancy"]
 	path = themes/nofancy
 	url = https://github.com/gizak/nofancy
+[submodule "themes/cotton-sky"]
+	path = themes/cotton-sky
+	url = git@github.com:bojan-karlas/cotton-sky.git
