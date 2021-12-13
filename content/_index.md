@@ -2,6 +2,11 @@
 layout: list
 title: The ease.ml Project
 summary: The fundemental hypothesis of ease.ml is that future machine learning platforms should manage the end-​​to-​end process of building ML applications, beyond simplying making training a single model faster and automatic.
+jsonld:
+  type: ResearchProject
+  name: ease.ml
+  alternateName: [ "easeml", "ease ml" ]
+  logo: https://ease.ml/images/easeml-logo.png
 thumbnail: images/easeml-logo.png
 sections:
     - partial: content
