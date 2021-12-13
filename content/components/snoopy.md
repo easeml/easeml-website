@@ -25,7 +25,7 @@ sections:
         grouped: true
 links:
   - icon: fa-github
-    href: https://github.com/easeml
+    href: https://github.com/easeml/snoopy
     large: true
     label: Code
 ---
