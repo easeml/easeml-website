@@ -39,3 +39,7 @@ From the technical perspective, what we are estimating is the Bayes error, a fun
 **Output:** {Feasible, Not Feasible} as the belief of the system.
 
 **Action:** (1) If "Feasible", proceeds to ease.ml/AutoML; (2) If "Not Feasible", proceeds to CPClean.
+
+<div class="embedded-element">
+{{< youtube HQ0E1j35pU4 >}}
+</div>

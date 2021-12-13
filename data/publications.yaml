@@ -94,7 +94,7 @@
   - W Wu
   - C Zhang
   bibTeX: "@article{renggli2020ease,
-    title={Ease. ml/snoopy: Towards Automatic Feasibility Study for Machine Learning Applications},
+    title={Ease.ml/snoopy: Towards Automatic Feasibility Study for Machine Learning Applications},
     author={Renggli, Cedric and Rimanic, Luka and Kolar, Luka and Hollenstein, Nora and Wu, Wentao and Zhang, Ce},
     journal={arXiv preprint arXiv:2010.08410},
     year={2020}
@@ -189,6 +189,7 @@
   firstPage: 1
   id: renggli2020ease
   links:
+    Demo Video: https://www.youtube.com/watch?v=HQ0E1j35pU4
     paper: https://dl.acm.org/doi/pdf/10.14778/3415478.3415488
   thumbnail: /images/papers/renggli2020ease.png
   title: "Ease.ml/snoopy in action: Towards automatic feasibility analysis for machine learning application development"
@@ -197,6 +198,48 @@
   venueShort: VLDB
   venueTrack: Demo
   year: 2020
+  tag: snoopy
+- abstract: |
+    The Bayes error rate (BER) is a fundamental concept in machine learning that quantifies 
+    the best possible accuracy any classifier can achieve on a fixed probability distribution. 
+    Despite years of research on building estimators of lower and upper bounds for the BER, 
+    these were usually compared only on synthetic datasets with known probability distributions, 
+    leaving two key questions unanswered: (1) How well do they perform on realistic, non-synthetic 
+    datasets?, and (2) How practical are they? Answering these is not trivial. Apart from the obvious 
+    challenge of an unknown BER for real-world datasets, there are two main aspects any BER estimator 
+    needs to overcome in order to be applicable in real-world settings: (1) the computational and 
+    sample complexity, and (2) the sensitivity and selection of hyper-parameters.In this work, 
+    we propose FeeBee, the first principled framework for analyzing and comparing BER estimators 
+    on modern real-world datasets with unknown probability distribution. We achieve this by injecting 
+    a controlled amount of label noise and performing multiple evaluations on a series of different 
+    noise levels, supported by a theoretical result which allows drawing conclusions about the evolution 
+    of the BER. By implementing and analyzing 7 multi-class BER estimators on 6 commonly used 
+    datasets of the computer vision and NLP domains, FeeBee allows a thorough study of these estimators, 
+    clearly identifying strengths and weaknesses of each, whilst being easily deployable on any future BER estimator.
+  authors:
+  - C Renggli
+  - L Rimanić
+  - N Hollenstein
+  - C Zhang
+  bibTeX: "@article{renggli2021evaluating,
+    title={Evaluating Bayes Error Estimators on Real-World Datasets with FeeBee},
+    author={Renggli, Cedric and Rimanic, Luka and Li, Bo and Zhang, Ce},
+    journal={Advances in Neural Information Processing Systems},
+    volume={34},
+    year={2021}
+    }"
+  entryType: inproceedings
+  firstPage: 1
+  id: renggli2021evaluating
+  links:
+    paper: https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/045117b0e0a11a242b9765e79cbf113f-Paper-round2.pdf
+  thumbnail: /images/papers/renggli2021evaluating.png
+  title: Evaluating Bayes Error Estimators on Real-World Datasets with FeeBee
+  type: publication
+  venueLong: Advances in Neural Information Processing Systems
+  venueShort: NeurIPS
+  venueTrack: Datasets and Benchmarks
+  year: 2021
   tag: snoopy
 - abstract: 'Machine learning (ML) applications have been thriving recently, largely
     attributed to the increasing  availability of data. However, inconsistency and
@@ -723,6 +766,7 @@
   firstPage: 1
   id: renggli2019mlsys
   links:
+    Talk Video: https://www.youtube.com/watch?v=yzABa3G509o
     paper: https://mlsys.org/Conferences/2019/doc/2019/162.pdf
   thumbnail: /images/papers/renggli2019mlsys.png
   title: 'Continuous Integration of Machine Learning Models: A Rigorous Yet Practical
