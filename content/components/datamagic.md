@@ -3,9 +3,12 @@ layout: list
 title: DataMagic
 aliases: [/datamagic]
 summary: |
-    What if ease.ml/snoopy thinks your data is not good enough for ML to reach your quality target? In this case,
-    it might be counterproductive to fire up an expensive ML training process, instead, we hope to help the user
-    to understand their data better and make a more informative decision.
+    Modern ML applications are often data hungry --- sometimes it is caused by the extensive process of data
+    collection, and sometimes it is caused by the striking diversity of the data format that makes it hard 
+    to construct a homogeneous large dataset. Given an input dataset from the user, the first step of the 
+    ease.ml process, ease.ml/DataMagic, aims at providing functionalities of automatic data augmentation 
+    (adding new data examples automatically) and automatic data ingestion (automatically normalizing data 
+    into the same, machine readable, format).
 thumbnail: images/easeml-component-generic.png
 weight: 1
 sections:
