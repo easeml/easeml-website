@@ -760,7 +760,7 @@
   bibTeX: "@inproceedings{renggli2019mlsys,\n author = {Cedric Renggli and Bojan Karlaš\
     \ and Bolin Ding and Feng Liu and Kevin Schawinski and Wentao Wu and Ce Zhang},\n\
     \ booktitle = {Proceedings of Machine Learning and Systems},\n title = {Continuous\
-    \ Integration of Machine Learning Models: A Rigorous Yet Practical Treatment},\n\
+    \ Integration of Machine Learning Models with ease.ml/ci: A Rigorous Yet Practical Treatment},\n\
     \ year = {2019}\n}\n\n"
   entryType: inproceedings
   firstPage: 1
@@ -769,7 +769,7 @@
     Talk Video: https://www.youtube.com/watch?v=yzABa3G509o
     paper: https://mlsys.org/Conferences/2019/doc/2019/162.pdf
   thumbnail: /images/papers/renggli2019mlsys.png
-  title: 'Continuous Integration of Machine Learning Models: A Rigorous Yet Practical
+  title: 'Continuous Integration of Machine Learning Models with ease.ml/ci: A Rigorous Yet Practical
     Treatment'
   type: publication
   venueLong: Proceedings of Machine Learning and Systems

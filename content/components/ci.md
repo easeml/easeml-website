@@ -21,7 +21,7 @@ sections:
         grouped: true
 links:
   - icon: fa-github
-    href: https://github.com/easeml
+    href: https://github.com/easeml/ci
     large: true
     label: Code
 ---
