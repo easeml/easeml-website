@@ -24,6 +24,10 @@ links:
     href: https://github.com/easeml/ci
     large: true
     label: Code
+  - icon: fa-blog
+    href: https://ds3lab.ghost.io/ci/
+    large: true
+    label: Post
 ---
 
 <div class="embedded-element">
