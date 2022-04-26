@@ -24,6 +24,10 @@ links:
     href: https://github.com/easeml/datascope
     large: true
     label: Code
+  - icon: fa-rocket
+    href: https://colab.research.google.com/drive/1faCvkKLFA7m4kj8GzxBNBMMq0nXi70H3
+    large: true
+    label: Demo
 ---
 
 <div class="embedded-element">
