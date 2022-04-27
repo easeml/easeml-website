@@ -19,6 +19,10 @@ sections:
         header:
           field: year
         grouped: true
+        sortBy:
+          field: year
+        sortOrder: "desc"
+
 links:
   - icon: fa-github
     href: https://github.com/easeml/datascope
