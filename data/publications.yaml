@@ -492,11 +492,10 @@
   - B Karlaš
   - D Dao
   - M Interlandi
-  - B Li
   - S Schelter
   - W Wu
   - C Zhang
-  bibTeX: "@article{karlas2022data,
+  bibTeX: "@article{karlas2024data,
     title={Data Debugging with Shapley Importance over End-to-End Machine Learning Pipelines},
     author={Karlaš, Bojan and Dao, David and Interlandi, Matteo and Li, Bo and Schelter, Sebastian and Wu, Wentao and Zhang, Ce},
     journal={The Twelfth International Conference on Learning Representations},
